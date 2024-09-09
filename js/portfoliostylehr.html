@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            background-color: black;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            color: gray;
+        }
+        .btn {
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+        .introduction-content {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            margin: 30px 80px; /* Add some spacing */
+        }
+        .introduction {
+            text-align: justify;
+            width: 50%; /* Set width to 50% for better layout */
+            margin-right: 60px; /* Add space between text and image */
+        }
+        .image {
+            height: 300px;
+            width: 600px;
+            border-radius: 20px;
+        }
+        .background-content {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            margin: 40px 80px; /* Add some spacing */
+        }
+        .background {
+            text-align: justify;
+            width: 50%;
+            margin-left: 60px; /* Add space between text and image */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn"><a href="../index.html" style="color: white;">Back</a></button>
+        <h1>StyleHr</h1>
+        <p>A leading retail player in India, grappled with significant challenges in attendance management and payroll accuracy across its extensive workforce.</p>
+       
+        <div class="introduction-content">
+            <div class="introduction">
+                <h1>Introduction</h1>
+                <p>Ramachandra PVT LTD is a leading retail company in India, 
+                    with a large number of stores across the country. Each store has multiple firms, 
+                    and all firms have a significant workforce spread across various locations. 
+                    The company faced major challenges in managing employee attendance and ensuring accurate 
+                    payroll calculations for its extensive workforce. The existing eSSL attendance system had
+                    limitations that led to operational inefficiencies and recurring payroll errors, 
+                    necessitating a comprehensive solution to streamline these critical processes. 
+                    Additionally, all users were restricted from accessing certain modules based on their permissions,
+                    and they faced difficulties in applying for leaves. Recognizing the need for improvement, 
+                    Ramachandra PVT LTD sought a reliable and scalable solution to enhance their attendance management 
+                    and payroll processing capabilities.</p>
+            </div>
+            <img src="../img/dashboard.png" alt="Image" class="image">
+        </div>
+        <div class="background-content">
+            <img src="../img/backgroundimage.png" alt="Image" class="image">
+            <div class="background">
+            <h1>Background and Requirements</h1>
+            <p>The client, Ramachandra PVT LTD, 
+                was already using the Zoho platform for various business operations. 
+                They requested a similar solution tailored to their attendance management 
+                and payroll processing needs, work on the project in a manner 
+                that aligned with their familiarity with the Zoho application.</p>
+            </div>
+        </div>
+        <div class="introduction-content">
+            <div class="introduction">
+                <h1>Analysis and Proof of Concept</h1>
+                <p>As the junior developer, I played a crucial role in analyzing the existing Zoho application, 
+                    meticulously examining all the relevant components, modules, and features.Based on 
+                    this comprehensive analysis, I created a proof of concept (POC) to demonstrate how 
+                    we could replicate and enhance the desired functionalities within our proposed solution.</p>
+            </div>
+            <img src="../img/poc.png" alt="Image" class="image">
+        </div>
+        <div class="background-content">
+            <img src="../img/advancedfilter.png" alt="Image" class="image">
+            <div class="background">
+            <h1>Advanced Filter</h1>
+            <p>I will implement multi-criteria filtering to allow users to filter by multiple attributes 
+                (e.g., category, employee ID, department). The filtering options will include searching 
+                for data that contains, does not contain, matches exactly, or is similar to the input. 
+                This functionality will make it easier to search for and find specific data.
+            </p>
+            </div>
+        </div>
+        <div class="introduction-content">
+            <div class="introduction">
+            <h1>Monthly Attendance</h1>
+            <p>I will intergrate a monthly attendance system to track who is coming to the organization or taking leave. 
+                This data will be used to calculate salaries and other related matters.</p>
+            </div>
+            <img src="../img/monthlyattendance.png" alt="Image" class="image">
+        </div>
+        <div class="background-content">
+            <img src="../img/dashboard.png" alt="Image" class="image">
+            <div class="background">
+            <h1>Technology Stack</h1>
+            <p>The application was built using a modern technology stack, with React.js for the frontend, 
+                Django Rest Framework for the backend, PostgreSQL for the database, and Celery/Cronjob 
+                for automated processes.One unique technological aspect was the integration of 
+                Apollo GraphQL for real-time data handling, such as notifications and updates.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            background-color: black;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            color: gray;
+        }
+        .btn {
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+        }
+        .introduction-content {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            margin: 30px 80px; /* Add some spacing */
+        }
+        .introduction {
+            text-align: justify;
+            width: 50%; /* Set width to 50% for better layout */
+            margin-right: 60px; /* Add space between text and image */
+        }
+        .image {
+            height: 300px;
+            width: 600px;
+            border-radius: 20px;
+        }
+        .background-content {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            margin: 40px 80px; /* Add some spacing */
+        }
+        .background {
+            text-align: justify;
+            width: 50%;
+            margin-left: 60px; /* Add space between text and image */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button class="btn"><a href="../index.html" style="color: white;">Back</a></button>
+        <h1>Galance</h1>
+        <p>This refers to the core function of the application, which allows users to view, manage, and pay their bills online. 
+            This can include utilities, credit card bills, rent, 
+            subscriptions, or any other recurring payments.</p>
+       
+        <div class="introduction-content">
+            <div class="introduction">
+                <h1>Introduction</h1>
+                <p>The Glance web-responsive application allows organizations with
+                    multiple businesses to track daily actions related to their billing information and
+                    directly pay bills through their bank.</p>
+            </div>
+            <img src="../img/galancedashboard.png" alt="Image" class="image">
+        </div>
+        <div class="background-content">
+            <img src="../img/apmodule.png" alt="Image" class="image">
+            <div class="background">
+            <h1>Background and Requirements</h1>
+            <p>The client Requirements, application is essential for modern financial management, 
+                providing convenience and flexibility to users who need to manage multiple payments in a streamlined manner.</p>
+            </div>
+        </div>
+        <div class="introduction-content">
+            <div class="introduction">
+                <h1>Analysis and Proof of Concept</h1>
+                <p>User has secure login with multi-factor authentication to protect user data.
+                    A central interface where users can view all their bills, payment history, and upcoming due dates.
+                </p>
+            </div>
+            <img src="../img/bankproof.png" alt="Image" class="image">
+        </div>
+        <div class="background-content">
+            <img src="../img/galancestack.png" alt="Image" class="image">
+            <div class="background">
+            <h1>Technology Stack</h1>
+            <p>The application was built using a modern technology stack, with Redux for the frontend, 
+                Django Rest Framework for the backend, PostgreSQL for the database, and Celery/Cronjob 
+                for automated processes.One unique technological aspect was the integration of 
+                Apollo GraphQL for real-time data handling, such as notifications and updates.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
